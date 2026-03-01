@@ -28,7 +28,7 @@ elif "win" in s or "free" in s:
 elif "password reset" in s:
     print("LOW RISK: Verify legitimacy with sender.")
 else:
-    print("No phising indicators detected.")
+    print("No phishing indicators detected.")
 
 print("------------------------")
 print('Analyzed subject: "' + subject + '"')
